@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doaSdhMakan"
+    android:orientation="vertical"
+    android:background="@drawable/bgdoa">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DO'A SESUDAH MAKAN"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:paddingTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/design_default_color_primary_dark"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اَلْحَمْدُ ِللهِ الَّذِيْنَ اَطْعَمَنَا وَسَقَانَا وَجَعَلَنَا مِنَ الْمُسْلِمِيْنَ"
+            android:textAlignment="center"
+            android:textSize="40dp"
+            android:paddingTop="200dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Artinya : Segala puji bagi Allah yang telah memberi kami makan dan minum serta menjadikan kami termasuk golongan orang muslim.
+            (HR.Ahmad, Abu Dawud, Tirmidzi).ِ"
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:paddingTop="340dp"
+            android:textColor="@color/black"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/bgdoa"
+                android:orientation="horizontal"
+                android:paddingVertical="7dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".33"
+                    android:gravity="left">
+
+                    <ImageButton
+                        android:id="@+id/btn_back"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".33"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/btn_home"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_baseline_home_24" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".33"
+                    android:gravity="right">
+
+                    <ImageButton
+                        android:id="@+id/btn_setting"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_baseline_settings_24" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

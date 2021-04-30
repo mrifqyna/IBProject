@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".doaNabiMuhammad"
+    android:orientation="vertical"
+    android:background="@drawable/bgdoa">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="DO'A NABI MUHAMMAD"
+            android:gravity="center"
+            android:textSize="35dp"
+            android:paddingTop="20dp"
+            android:fontFamily="@font/poppins_medium"
+            android:textColor="@color/design_default_color_primary_dark"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="يَا أَوَّلَ الْأَوَّلِينَ وَيَا آخِرَ الْآخِرِينَ وَيَا ذَا الْقُوَّةِ الْمَتِينَ وَيَا رَاحِمَ الْمَسَاكِينَ وَيَا أَرْحَمَ الرَّاحِمِينَ"
+            android:textAlignment="center"
+            android:textSize="35dp"
+            android:paddingTop="110dp"
+            android:textColor="@color/black"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Artinya: Ya Tuhanku, jadikanlah aku dan anak cucuku orang yang tetap melaksanakan shalat, ya Tuhan kami, terimlah doaku. Ya Tuhan kami, ampunilah aku dan kedua orang tuaku dan orang-orang yang beriman pada hari diadakan perhitungan (hari kiamat)” (QS Ibrahim 40-41)."
+            android:textAlignment="center"
+            android:textSize="25dp"
+            android:paddingTop="280dp"
+            android:textColor="@color/black"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:background="@drawable/bgdoa"
+                android:orientation="horizontal"
+                android:paddingVertical="7dp">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".33"
+                    android:gravity="left">
+
+                    <ImageButton
+                        android:id="@+id/btn_back"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_baseline_arrow_back_24" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".33"
+                    android:gravity="center">
+
+                    <ImageButton
+                        android:id="@+id/btn_home"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_baseline_home_24" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight=".33"
+                    android:gravity="right">
+
+                    <ImageButton
+                        android:id="@+id/btn_setting"
+                        android:layout_width="60dp"
+                        android:layout_height="match_parent"
+                        android:background="#00FFFFFF"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/ic_baseline_settings_24" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
